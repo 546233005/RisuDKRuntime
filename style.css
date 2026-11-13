@@ -1,0 +1,8 @@
+/* Generic RisuDKRuntime display bridge. Source-card CSS is injected from the character card. */
+.mes_text .dk { font-family: inherit; }
+.mes_text .dk img,
+.mes_text img.dk-npc-image { max-width: 350px; max-height: 70vh; object-fit: contain; display: block; margin: 8px auto; }
+.mes_text .dk-npcimg { display: flex; justify-content: center; align-items: center; padding: 12px 4px; width: 100%; box-sizing: border-box; }
+.mes_text .dk-nib { width: 100%; max-width: 350px; aspect-ratio: 7/8; position: relative; overflow: hidden; border-radius: 20px; background: #fff; box-shadow: 0 8px 32px rgba(0,0,0,.1); display: flex; justify-content: center; align-items: center; }
+.mes_text .dk-nib img { width: 100%; height: 100%; display: block; object-fit: cover; }
+.mes_text [risu-btn] { cursor: pointer; }

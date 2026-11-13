@@ -1,0 +1,16 @@
+{
+  "display_name": "RisuAI Dungeon Keeper 公共仓库运行时",
+  "loading_order": 100,
+  "requires": [],
+  "optional": [],
+  "js": "index.js",
+  "css": "style.css",
+  "author": "CharX dynamic conversion",
+  "version": "1.1.0",
+  "homePage": "",
+  "auto_update": false,
+  "generate_interceptor": "dkRuntimeGenerationInterceptor",
+  "hooks": {
+    "activate": "onActivate"
+  }
+}
